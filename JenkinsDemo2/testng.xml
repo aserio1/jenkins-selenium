@@ -3,7 +3,7 @@
 <suite name="Suite" parallel ="none">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="packagename.classname"/>
+      <class name="com.test.Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
