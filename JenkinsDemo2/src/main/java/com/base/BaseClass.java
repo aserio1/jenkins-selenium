@@ -14,7 +14,7 @@ public class BaseClass {
 	
 	@BeforeMethod
 	public void setup() {
-		if (System.getProperty("browser").equalsIgnoreCase("/bin/google-chrome")) {
+		if (System.getProperty("browser").equalsIgnoreCase("google-chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 		} else if (System.getProperty("browser").equalsIgnoreCase("Firefox")) {
